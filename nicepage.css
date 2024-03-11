@@ -45065,7 +45065,11 @@ blockquote {
 }
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 140px;
+    min-height: 93px;
+  }
+
+  .u-header .u-icon-1 {
+    margin-top: 10px;
   }
 
   .u-header .u-text-2 {
@@ -45076,9 +45080,9 @@ blockquote {
 
   .u-header .u-menu-1 {
     width: auto;
-    margin-top: -55px;
+    margin-top: -62px;
     margin-right: 0;
-    margin-bottom: 58px;
+    margin-bottom: 37px;
   }
 }
 .u-footer {
