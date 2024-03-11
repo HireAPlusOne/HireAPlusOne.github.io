@@ -1,6 +1,5 @@
  .u-section-1 {
-  background-image: url("images/Screenshot2024-03-10at4.51.56PM.png?rand=b9a7");
-  background-position: 50% 50%;
+  background-image: url("images/Screenshot2024-03-10at10.24.05PM.png");
 }
 
 .u-section-1 .u-sheet-1 {
@@ -20,8 +19,9 @@
 
 .u-section-1 .u-group-2 {
   width: 1117px;
-  min-height: 278px;
+  min-height: 241px;
   height: auto;
+  --radius: 16px;
   margin: 268px 0 0 auto;
 }
 
@@ -38,7 +38,7 @@
 .u-section-1 .u-text-2 {
   letter-spacing: 2px;
   font-size: 1.125rem;
-  margin: 31px 30px 0 0;
+  margin: 9px 30px 0 0;
 }
 
 .u-section-1 .u-group-3 {
@@ -70,6 +70,10 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-1 {
+    background-position: 50% 50%;
+  }
+
   .u-section-1 .u-sheet-1 {
     min-height: 810px;
   }
@@ -226,20 +230,25 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 919px;
+    min-height: 949px;
   }
 
   .u-section-1 .u-group-1 {
     background-position: 47.49% 65.07%;
-    min-height: 924px;
+    margin-top: 160px;
+    min-height: 767px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
   }
 
+  .u-section-1 .u-container-layout-1 {
+    padding-top: 0;
+  }
+
   .u-section-1 .u-group-2 {
     min-height: 421px;
-    margin-top: 129px;
+    margin-top: 0;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -252,7 +261,7 @@
 
   .u-section-1 .u-text-2 {
     width: auto;
-    margin-top: 4px;
+    margin-top: 8px;
   }
 
   .u-section-1 .u-group-3 {
