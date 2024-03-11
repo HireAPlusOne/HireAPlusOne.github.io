@@ -1,5 +1,5 @@
 .u-section-1 {
-  background-image: url("images/Screenshot2024-03-10at4.51.56PM.png");
+  background-image: url("images/Screenshot2024-03-10at4.51.56PM.png?rand=b9a7");
 }
 
 .u-section-1 .u-sheet-1 {
@@ -347,7 +347,7 @@
 }
 
 .u-section-3 .u-text-1 {
-  font-weight: normal;
+  font-weight: bold;
   font-size: 3rem;
   margin: 0;
 }
@@ -355,6 +355,7 @@
 .u-section-3 .u-text-2 {
   font-weight: 400;
   margin: 19px 0 0;
+  font-size: 1.25rem;
 }
 
 .u-section-3 .u-layout-cell-2 {
@@ -401,7 +402,7 @@
 .u-section-3 .u-btn-1 {
   background-image: none;
   --radius: 20px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 @media (max-width: 1199px) {
@@ -420,7 +421,7 @@
   }
 
   .u-section-3 .u-text-2 {
-    margin-top: 40px;
+    margin-top: 20px;
   }
 
   .u-section-3 .u-layout-cell-2 {
@@ -449,7 +450,6 @@
   }
 
   .u-section-3 .u-btn-1 {
-    font-weight: 700;
     padding: 10px 39px 10px 38px;
   }
 }
@@ -465,6 +465,7 @@
 
   .u-section-3 .u-text-2 {
     font-weight: normal;
+    font-size: 1rem;
   }
 
   .u-section-3 .u-layout-cell-2 {
